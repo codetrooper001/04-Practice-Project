@@ -1,8 +1,8 @@
 name: issues
-on: issues 
+on: issues
 jobs:
-  Issues: 
+  Issues:
     runs-on: ubuntu-latest
     steps:
-      - name: issues 
-        run: echo "Issue Action: ${{ github.event.action }}"
+      - name: issues
+        run: echo "${{ github.event.action }}"
